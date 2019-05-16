@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/3/13 11:21:03。
+     1>项目“c:\Users\HP\documents\visual studio 2013\Projects\Project1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源1.cpp"
+         源1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hp\documents\visual studio 2013\Projects\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\hp\documents\visual studio 2013\Projects\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hp\documents\visual studio 2013\Projects\Project1\Debug\Project1.lib" /MACHINE:X86 "Debug\源.obj"
+         "Debug\源1.obj"
+     1>源1.obj : error LNK2005: _main 已经在 源.obj 中定义
+     1>c:\users\hp\documents\visual studio 2013\Projects\Project1\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“c:\Users\HP\documents\visual studio 2013\Projects\Project1\Project1\Project1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.54
