@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/4/2 20:04:56。
+     1>项目“C:\Users\HP\Documents\Visual Studio 2013\Projects\3.31\3.31\3.31.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>c:\users\hp\documents\visual studio 2013\projects\3.31\3.31\源.cpp(138): error C2668: “sqrt”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1251): 可能是“long double sqrt(long double) throw()”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1135): 或       “float sqrt(float) throw()”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(521): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>已完成生成项目“C:\Users\HP\Documents\Visual Studio 2013\Projects\3.31\3.31\3.31.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.40
